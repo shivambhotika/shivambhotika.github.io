@@ -164,13 +164,23 @@
               "icon": "lucide-list",
               "title": "Outline of on-building-in-public"
             }
+          },
+          {
+            "id": "97822386ccfd7756",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,7 +191,8 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "edit-mdx:New .mdx file": false
+      "edit-mdx:New .mdx file": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "ecafbafac8534a76",
