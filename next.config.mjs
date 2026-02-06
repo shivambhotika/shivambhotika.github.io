@@ -1,4 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
+  basePath: process.env.NODE_ENV === 'production' ? '' : '',
+  trailingSlash: true,
+};
 
 export default nextConfig;

@@ -1,27 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Serif:ital,wght@0,400;0,500;1,400&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Lighter retro palette */
+  --background: #ebe8e1;
+  --background-light: #f2f0eb;
+  --foreground: #2b2b2b;
+  --screen-bg: #b8c9b0;
+  --screen-text: #1a2318;
+  --border: #d0cdc6;
+  --muted: #666666;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "IBM Plex Serif", Georgia, serif;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+/* Typography */
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: var(--foreground);
+  }
+
+  h1 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  h2 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  h3 {
+    @apply text-xl md:text-2xl;
+  }
+
+  a {
+    color: var(--foreground);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  a:hover {
+    background: var(--screen-bg);
+    color: var(--screen-text);
+  }
+
+  p {
+    @apply leading-relaxed;
+  }
+}
+
+@layer components {
+  /* Simple divider */
+  .divider {
+    border-top: 1px solid var(--border);
+    @apply my-8;
+  }
+
+  /* Retro card */
+  .card {
+    background: var(--background-light);
+    border: 2px solid var(--foreground);
+    @apply p-4;
+    box-shadow:
+      inset -1px -1px 0 var(--border),
+      inset 1px 1px 0 #f0eeea,
+      2px 2px 0 var(--foreground);
+  }
+
+  .card::before,
+  .card::after {
+    display: none;
+  }
+
+  .card-hover:hover {
+    background: var(--screen-bg);
+    color: var(--screen-text);
+  }
+
+  .card-hover:active {
+    box-shadow:
+      inset 1px 1px 0 var(--border),
+      inset -1px -1px 0 #f0eeea,
+      1px 1px 0 var(--foreground);
+    transform: translate(1px, 1px);
+  }
+
+  /* Label */
+  .label {
+    font-family: "VT323", monospace;
+    @apply text-lg uppercase;
+    color: var(--muted);
+  }
+
+  /* Content prose */
+  .prose-custom {
+    @apply max-w-prose;
+  }
+
+  .prose-custom p {
+    @apply mb-4;
+  }
+
+  .prose-custom h2 {
+    @apply mt-8 mb-4;
+  }
+
+  .prose-custom ul, .prose-custom ol {
+    @apply mb-4 pl-5;
+    list-style: square;
+  }
+
+  .prose-custom li {
+    @apply mb-1;
+  }
+
+  .prose-custom blockquote {
+    border-left: 3px solid var(--foreground);
+    @apply pl-4 my-4 italic;
+  }
+
+  .prose-custom code {
+    font-family: "VT323", monospace;
+    @apply text-xl px-1;
+    background: var(--screen-bg);
+  }
+
+  .prose-custom pre {
+    font-family: "VT323", monospace;
+    @apply p-4 overflow-x-auto my-4 text-xl;
+    background: var(--screen-bg);
+    border: 2px solid var(--foreground);
+  }
+
+  .prose-custom pre code {
+    @apply bg-transparent p-0;
+  }
+
+  /* Utilities */
+  .text-muted {
+    color: var(--muted);
+  }
+
+  .font-pixel {
+    font-family: "VT323", monospace;
+  }
+
+  /* Loading screen */
+  .loading-screen {
+    position: fixed;
+    inset: 0;
+    background: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+
+  .loading-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .loading-bar {
+    width: 200px;
+    height: 8px;
+    border: 2px solid var(--foreground);
+    background: var(--background-light);
+    overflow: hidden;
+  }
+
+  .loading-bar-fill {
+    height: 100%;
+    background: var(--screen-bg);
+    animation: loadingProgress 1.5s ease-out forwards;
+  }
+
+  @keyframes loadingProgress {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  .loading-text {
+    font-size: 1.25rem;
+    color: var(--muted);
+    animation: blink 0.5s step-end infinite;
+  }
+
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .fade-in {
+    animation: fadeIn 0.3s ease-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  /* Home content styling */
+  .home-content ul {
+    list-style: none;
+    padding: 0;
+    @apply space-y-2;
+  }
+
+  .home-content li {
+    @apply font-pixel text-xl;
+  }
+
+  .home-content li::before {
+    content: "- ";
+    color: var(--muted);
+  }
+
+  .home-content a {
+    text-decoration: underline;
+    text-underline-offset: 2px;
   }
 }
