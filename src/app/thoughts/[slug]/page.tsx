@@ -1,8 +1,14 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import { marked } from 'marked';
 import { getThoughtBySlug, getThoughtSlugs } from '@/lib/content';
 import { formatDate } from '@/lib/utils';
+
+marked.setOptions({
+  gfm: true,
+  breaks: true,
+});
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -67,18 +73,12 @@ export default async function ThoughtPage({ params }: Props) {
           )}
         </header>
 
-        <div className="prose-custom">
-          {thought.content.split('\n').map((paragraph, index) => {
-            if (paragraph.trim() === '') return null;
-            if (paragraph.startsWith('## ')) {
-              return <h2 key={index}>{paragraph.replace('## ', '')}</h2>;
-            }
-            if (paragraph.startsWith('### ')) {
-              return <h3 key={index}>{paragraph.replace('### ', '')}</h3>;
-            }
-            return <p key={index}>{paragraph}</p>;
-          })}
-        </div>
+        <div
+          className="prose-custom"
+          dangerouslySetInnerHTML={{
+            __html: marked.parse(thought.content) as string,
+          }}
+        />
       </article>
     </div>
   );
