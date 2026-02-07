@@ -22,6 +22,9 @@ const parser = new Parser({
   customFields: {
     item: ['itunes:duration', 'content:encoded'],
   },
+  headers: {
+    'User-Agent': 'Mozilla/5.0 (compatible; PersonalWebsite/1.0; +https://gabtin.github.io)',
+  },
 });
 
 export async function getSubstackPosts(): Promise<SubstackPost[]> {
