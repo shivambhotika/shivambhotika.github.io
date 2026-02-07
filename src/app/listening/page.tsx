@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import ListeningCard from '@/components/ListeningCard';
-import { getListeningItems, getPageContent } from '@/lib/content';
+import RecordCard from '@/components/RecordCard';
+import { getListeningItems, getRecords, getPageContent } from '@/lib/content';
 
 export const metadata: Metadata = {
   title: 'Listening | Gabriele Tinelli',
@@ -9,11 +10,20 @@ export const metadata: Metadata = {
 
 export default function ListeningPage() {
   const items = getListeningItems();
+  const records = getRecords();
   const { title, subtitle } = getPageContent('listening');
 
-  const podcasts = items.filter((i) => i.type === 'podcast');
-  const audiobooks = items.filter((i) => i.type === 'audiobook');
-  const music = items.filter((i) => i.type === 'music');
+  // Group items by type dynamically
+  const itemsByType = items.reduce((acc, item) => {
+    const type = item.type || 'uncategorized';
+    if (!acc[type]) {
+      acc[type] = [];
+    }
+    acc[type].push(item);
+    return acc;
+  }, {} as Record<string, typeof items>);
+
+  const types = Object.keys(itemsByType);
 
   return (
     <div>
@@ -26,40 +36,29 @@ export default function ListeningPage() {
         )}
       </section>
 
-      {podcasts.length > 0 && (
-        <section className="mb-12">
-          <h2 className="font-mono text-lg text-foreground mb-6">Podcasts</h2>
-          <div className="space-y-4">
-            {podcasts.map((item) => (
-              <ListeningCard key={item.slug} item={item} />
+      {records.length > 0 && (
+        <section className="mb-16">
+          <h2 className="font-mono text-lg text-foreground mb-6">my all-time records</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+            {records.map((record) => (
+              <RecordCard key={record.slug} record={record} />
             ))}
           </div>
         </section>
       )}
 
-      {audiobooks.length > 0 && (
-        <section className="mb-12">
-          <h2 className="font-mono text-lg text-foreground mb-6">Audiobooks</h2>
+      {types.map((type) => (
+        <section key={type} className="mb-12">
+          <h2 className="font-mono text-lg text-foreground mb-6">{type}</h2>
           <div className="space-y-4">
-            {audiobooks.map((item) => (
+            {itemsByType[type].map((item) => (
               <ListeningCard key={item.slug} item={item} />
             ))}
           </div>
         </section>
-      )}
+      ))}
 
-      {music.length > 0 && (
-        <section className="mb-12">
-          <h2 className="font-mono text-lg text-foreground mb-6">Music</h2>
-          <div className="space-y-4">
-            {music.map((item) => (
-              <ListeningCard key={item.slug} item={item} />
-            ))}
-          </div>
-        </section>
-      )}
-
-      {items.length === 0 && (
+      {items.length === 0 && records.length === 0 && (
         <p className="text-slate-500">No listening items logged yet. Check back soon.</p>
       )}
     </div>

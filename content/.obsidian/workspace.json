@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "thoughts/hardware-co-without-VC.mdx",
+                "file": "about.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hardware-co-without-VC"
+              "title": "about"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "thoughts/hardware-co-without-VC.mdx",
+                "file": "about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for hardware-co-without-VC"
+              "title": "Backlinks for about"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "thoughts/hardware-co-without-VC.mdx",
+                "file": "about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from hardware-co-without-VC"
+              "title": "Outgoing links from about"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "thoughts/hardware-co-without-VC.mdx",
+                "file": "about.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of hardware-co-without-VC"
+              "title": "Outline of about"
             }
           },
           {
@@ -197,39 +197,41 @@
   },
   "active": "ecafbafac8534a76",
   "lastOpenFiles": [
-    "thoughts.md",
-    "substack.md",
-    "reading.md",
+    "home.md",
+    "listening/titans-of-nuclear.mdx",
+    "listening/quanta-podcast.mdx",
+    "listening/practical-nerds.mdx",
+    "listening/mindscape-podcast.mdx",
     "podcast.md",
     "listening.md",
-    "investments.md",
-    "home.md",
+    "records/ok-computer.md",
+    "records/rebirth-of-cool.md",
+    "records/the-division-bell.md",
+    "records/reflections.md",
+    "records/paranoid.md",
+    "records/malibu.md",
+    "records/jazz-is-for-ordinary-people.md",
+    "records/human-after-all.md",
+    "records/funeral.md",
+    "records/electric-ladyland.md",
+    "records/dataverse.md",
+    "records/convergence.md",
+    "records/aurora.md",
+    "records/appetite-for-destruction.md",
+    "records/anima-latina.md",
+    "records/absolution.md",
     "about.md",
     "thoughts/hardware-co-without-VC.mdx",
+    "reading.md",
+    "investments.md",
+    "records/led-zep-3.md",
+    "images/records/ledzep3.png",
+    "images/records",
+    "images",
+    "records",
+    "thoughts.md",
+    "substack.md",
     "thoughts/quick-note-compounding.mdx",
-    "books/chip-war-the-fight-for-the-world-s-most-critical-t.md",
-    "investments/botcrew.mdx",
-    "investments/tesla.mdx",
-    "thoughts/How real manufacturing businesses start without VC.mdx",
-    "books/the-intelligent-investor.md",
-    "books/three-body-problem.mdx",
-    "books/the-three-body-problem.md",
-    "books/why-nations-fail-the-origins-of-power-prosperity-a.md",
-    "books/the-power-law-venture-capital-and-the-making-of-th.md",
-    "books/the-uninhabitable-earth-life-after-warming.md",
-    "books/the-order-of-time.md",
-    "books/the-metamorphosis.md",
-    "books/the-next-100-years-a-forecast-for-the-21st-century.md",
-    "books/the-idiot-brain-a-neuroscientist-explains-what-you.md",
-    "books/the-hitchhikers-guide-to-the-galaxy.md",
-    "books/the-future-of-capitalism-facing-the-new-anxieties.md",
-    "books/the-elegant-universe-superstrings-hidden-dimension.md",
-    "books/the-black-swan-the-impact-of-the-highly-improbable.md",
-    "books/the-dark-forest.md",
-    "books/sull-eguaglianza-di-tutte-le-cose-lezioni-american.md",
-    "books/the-art-of-war.md",
-    "books/spaceflight-a-concise-history.md",
-    "books/m-scurati.mdx",
-    "books/leonardo-da-vinci.mdx"
+    "investments/botcrew.mdx"
   ]
 }

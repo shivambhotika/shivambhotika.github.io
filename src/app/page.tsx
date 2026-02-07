@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { getPageContent } from '@/lib/content';
 import { marked } from 'marked';
 
@@ -16,7 +17,16 @@ export default function Home() {
     <div className="space-y-8">
       {/* Intro */}
       <section>
-        <h1 className="mb-4">{title || 'Welcome'}</h1>
+        <h1 className="mb-4 flex items-center gap-3">
+          {title || 'Welcome'}
+          <Image
+            src="/images/habboicon.png"
+            alt=""
+            width={48}
+            height={48}
+            className="inline-block"
+          />
+        </h1>
         {subtitle && <p className="text-lg">{subtitle}</p>}
       </section>
 

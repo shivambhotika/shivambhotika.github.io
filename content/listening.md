@@ -1,4 +1,4 @@
 ---
 title: Listening
-subtitle: stuff I listened to recently
+subtitle: stuff I listen to
 ---

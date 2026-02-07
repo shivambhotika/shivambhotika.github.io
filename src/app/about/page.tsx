@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 import { getPageContent } from '@/lib/content';
 import { marked } from 'marked';
 
@@ -29,6 +30,15 @@ export default function AboutPage() {
       ) : (
         <p className="text-slate-500">Content coming soon.</p>
       )}
+
+      <div className="flex justify-end mt-8">
+        <Image
+          src="/images/habboicon.png"
+          alt=""
+          width={48}
+          height={48}
+        />
+      </div>
     </div>
   );
 }

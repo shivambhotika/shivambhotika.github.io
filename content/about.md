@@ -1,28 +1,22 @@
 ---
 title: "About"
 ---
+Gabriele. Berlin-based. Southern-italian. From [this tiny town](https://www.google.com/maps/search/NOCI,%20BA). 
 
-I'm Gabriele Tinelli. I work at the intersection of technology and investing, with particular interests in robotics, hardware, and emerging technologies.
+Aerospace engineer by training, investor at [Foundamental](https://www.foundamental.com/) - where I look for hardware and robotics businesses that will either (1) become the next generation of universal tooling for their industry or (2) perform $100B+ in physical work over the next decade.
 
-My background spans engineering and finance, which gives me a unique perspective on how technology transforms industries and creates value.
+I was born in a family of two music teachers. My grandpa (on the right) was a great plumber and grew more veggies than my grandma could ever cook. My grandma (on the left) is a literal superhero who raised 3 girls on her own.
 
----
+<div style="display: flex; gap: 16px; margin: 24px 0;">
+  <img src="/images/about/nonna.png" alt="My grandma" style="width: 50%; max-height: 400px; object-fit: cover; border-radius: 4px;" />
+  <img src="/images/about/nonno.png" alt="My grandpa" style="width: 50%; max-height: 400px; object-fit: cover; border-radius: 4px;" />
+</div>
 
-## Interests
+I try to get out and climb as much as I can. This is me on [Uomini e Topi](https://www.youtube.com/watch?v=tf1MWu2R7P8), in the [Mello Valley](https://www.valmasino.info/en/schede/mello-valley/).
 
-- Robotics and automation
-- Hardware startups and deep tech
-- Value investing with a technology lens
-- Systems thinking and mental models
+<div style="margin: 24px 0;">
+  <img src="/images/about/climbing.png" alt="Climbing in Mello Valley" style="width: 100%; max-height: 500px; object-fit: cover; object-position: bottom; border-radius: 4px;" />
+</div>
 
----
+I'll use this website as a personal repo for my thoughts and my interests. 
 
-## Philosophy
-
-I believe in learning in public, writing to think, and building things that matter. This website is a reflection of that philosophy—a place to share ideas, track my reading and listening, and document my investment thinking.
-
----
-
-## Connect
-
-Find me on [GitHub](https://github.com/gabtin) or subscribe to my [Substack](https://gabrieletinelli.substack.com).

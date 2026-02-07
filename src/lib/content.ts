@@ -15,12 +15,20 @@ export interface Book {
   content: string;
 }
 
+export interface Record {
+  slug: string;
+  title: string;
+  artist: string;
+  cover: string;
+  description?: string;
+  link?: string;
+}
+
 export interface ListeningItem {
   slug: string;
   title: string;
   source: string;
-  type: 'podcast' | 'music' | 'audiobook';
-  date: string;
+  type?: string;
   link?: string;
   content: string;
 }
@@ -87,7 +95,19 @@ export function getBook(slug: string): Book | null {
 export function getListeningItems(): ListeningItem[] {
   const files = getFilesFromDirectory('listening');
   const items = files.map((file) => parseFile<Omit<ListeningItem, 'content' | 'slug'>>('listening', file));
-  return items.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  return items.sort((a, b) => a.title.localeCompare(b.title));
+}
+
+export function getRecords(): Record[] {
+  const files = getFilesFromDirectory('records');
+  const records = files.map((file) => {
+    const fullPath = path.join(contentDirectory, 'records', file);
+    const fileContents = fs.readFileSync(fullPath, 'utf8');
+    const { data } = matter(fileContents);
+    const slug = file.replace(/\.mdx?$/, '');
+    return { ...data, slug } as Record;
+  });
+  return records.sort((a, b) => a.artist.localeCompare(b.artist));
 }
 
 export function getThoughts(): Thought[] {
@@ -179,18 +199,6 @@ export interface ActivityItem {
 export function getRecentActivity(limit: number = 10): ActivityItem[] {
   const activities: ActivityItem[] = [];
 
-
-  // Get recent listening
-  const listening = getListeningItems().slice(0, 5);
-  listening.forEach((item) => {
-    activities.push({
-      type: 'listening',
-      title: item.title,
-      date: item.date,
-      href: '/listening',
-      preview: item.source,
-    });
-  });
 
   // Get recent thoughts
   const thoughts = getThoughts().slice(0, 5);
