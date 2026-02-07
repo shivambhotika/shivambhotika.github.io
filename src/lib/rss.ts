@@ -20,7 +20,7 @@ export interface PodcastEpisode {
 
 const parser = new Parser({
   customFields: {
-    item: ['itunes:duration'],
+    item: ['itunes:duration', 'content:encoded'],
   },
 });
 
