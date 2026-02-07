@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "thoughts/on-building-in-public.mdx",
+                "file": "thoughts/hardware-co-without-VC.mdx",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "on-building-in-public"
+              "title": "hardware-co-without-VC"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "thoughts/on-building-in-public.mdx",
+                "file": "thoughts/hardware-co-without-VC.mdx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for on-building-in-public"
+              "title": "Backlinks for hardware-co-without-VC"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "thoughts/on-building-in-public.mdx",
+                "file": "thoughts/hardware-co-without-VC.mdx",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from on-building-in-public"
+              "title": "Outgoing links from hardware-co-without-VC"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "thoughts/on-building-in-public.mdx",
+                "file": "thoughts/hardware-co-without-VC.mdx",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of on-building-in-public"
+              "title": "Outline of hardware-co-without-VC"
             }
           },
           {
@@ -197,15 +197,16 @@
   },
   "active": "ecafbafac8534a76",
   "lastOpenFiles": [
-    "thoughts/How real manufacturing businesses start without VC.mdx",
-    "thoughts/on-building-in-public.mdx",
-    "thoughts/quick-note-compounding.mdx",
     "home.md",
-    "thoughts/on-building-in-public.md",
-    "thoughts.md",
-    "about.md",
-    "substack.md",
     "reading.md",
+    "substack.md",
+    "thoughts.md",
+    "thoughts/hardware-co-without-VC.mdx",
+    "thoughts/hardware-co-without-VC.md",
+    "thoughts/How real manufacturing businesses start without VC.mdx",
+    "thoughts/quick-note-compounding.mdx",
+    "thoughts/on-building-in-public.md",
+    "about.md",
     "listening.md",
     "investments.md",
     "thoughts/hardware-renaissance.md",

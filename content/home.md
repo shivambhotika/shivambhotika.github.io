@@ -5,6 +5,8 @@ subtitle: |-
   following rabbit holes on how to enhance the physical world with robots.
 ---
 
-- [On Building in Public](/thoughts/on-building-in-public)
+
+
+- [99.5% of hardware companies don't know what venture capital is](/thoughts/hardware-co-without-VC)
 - [The Hardware Renaissance](/thoughts/hardware-renaissance)
 - [My Substack Newsletter](https://gabrieletinelli.substack.com)
