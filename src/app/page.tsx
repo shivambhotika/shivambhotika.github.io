@@ -9,11 +9,20 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Gabriele Tinelli',
     description: 'Personal website of Gabriele Tinelli - builder, investor, and technologist.',
+    images: [
+      {
+        url: '/images/habboicon.png',
+        width: 1200,
+        height: 630,
+        alt: 'Gabriele Tinelli',
+      },
+    ],
   },
   twitter: {
     card: 'summary',
     title: 'Gabriele Tinelli',
     description: 'Personal website of Gabriele Tinelli - builder, investor, and technologist.',
+    images: ['/images/habboicon.png'],
   },
 };
 

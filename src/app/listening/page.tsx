@@ -9,11 +9,20 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Listening | Gabriele Tinelli',
     description: 'Podcasts, audiobooks, and audio content I\'ve been enjoying.',
+    images: [
+      {
+        url: '/images/habboicon.png',
+        width: 1200,
+        height: 630,
+        alt: 'Listening | Gabriele Tinelli',
+      },
+    ],
   },
   twitter: {
     card: 'summary',
     title: 'Listening | Gabriele Tinelli',
     description: 'Podcasts, audiobooks, and audio content I\'ve been enjoying.',
+    images: ['/images/habboicon.png'],
   },
 };
 

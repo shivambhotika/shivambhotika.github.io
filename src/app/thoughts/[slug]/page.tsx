@@ -38,11 +38,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
       type: 'article',
       publishedTime: thought.date,
+      images: [
+        {
+          url: '/images/habboicon.png',
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
     },
     twitter: {
       card: 'summary',
       title,
       description,
+      images: ['/images/habboicon.png'],
     },
   };
 }

@@ -8,11 +8,20 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Investments | Gabriele Tinelli',
     description: 'My investment portfolio, theses, and thinking on public and private markets.',
+    images: [
+      {
+        url: '/images/habboicon.png',
+        width: 1200,
+        height: 630,
+        alt: 'Investments | Gabriele Tinelli',
+      },
+    ],
   },
   twitter: {
     card: 'summary',
     title: 'Investments | Gabriele Tinelli',
     description: 'My investment portfolio, theses, and thinking on public and private markets.',
+    images: ['/images/habboicon.png'],
   },
 };
 

@@ -10,11 +10,20 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Thoughts | Gabriele Tinelli',
     description: 'Notes, essays, and ideas on technology, investing, and more.',
+    images: [
+      {
+        url: '/images/habboicon.png',
+        width: 1200,
+        height: 630,
+        alt: 'Thoughts | Gabriele Tinelli',
+      },
+    ],
   },
   twitter: {
     card: 'summary',
     title: 'Thoughts | Gabriele Tinelli',
     description: 'Notes, essays, and ideas on technology, investing, and more.',
+    images: ['/images/habboicon.png'],
   },
 };
 

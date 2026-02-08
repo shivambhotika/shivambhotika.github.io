@@ -9,11 +9,20 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Podcast | Gabriele Tinelli',
     description: 'BitBuilders - interviews with people building hard things in robotics and hardware.',
+    images: [
+      {
+        url: '/images/habboicon.png',
+        width: 1200,
+        height: 630,
+        alt: 'Podcast | Gabriele Tinelli',
+      },
+    ],
   },
   twitter: {
     card: 'summary',
     title: 'Podcast | Gabriele Tinelli',
     description: 'BitBuilders - interviews with people building hard things in robotics and hardware.',
+    images: ['/images/habboicon.png'],
   },
 };
 
