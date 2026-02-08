@@ -36,7 +36,7 @@ type CombinedItem =
 export default async function ThoughtsPage() {
   const thoughts = getThoughts();
   const substackPosts = await getSubstackPosts();
-  const { subtitle } = getPageContent('thoughts');
+  const { title, subtitle } = getPageContent('thoughts');
 
   // Combine and sort by date
   const combinedItems: CombinedItem[] = [
@@ -54,10 +54,10 @@ export default async function ThoughtsPage() {
 
   return (
     <div>
-      <section className="mb-16">
-        <div className="section-marker mb-6">{'// THOUGHTS'}</div>
+      <section className="accent-line pt-8 mb-12">
+        <h1 className="text-foreground mb-4">{title || 'Thoughts'}</h1>
         {subtitle && (
-          <p className="text-lg text-slate-600 max-w-2xl leading-relaxed pt-8">
+          <p className="text-lg text-slate-600 max-w-2xl">
             {subtitle}
           </p>
         )}

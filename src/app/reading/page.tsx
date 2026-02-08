@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 
 export default function ReadingPage() {
   const books = getBooks();
-  const { subtitle } = getPageContent('reading');
+  const { title, subtitle } = getPageContent('reading');
 
   // Group books by genre dynamically
   const booksByGenre = books.reduce((acc, book) => {
@@ -43,10 +43,10 @@ export default function ReadingPage() {
 
   return (
     <div>
-      <section className="mb-16">
-        <div className="section-marker mb-6">{'// READING'}</div>
+      <section className="accent-line pt-8 mb-12">
+        <h1 className="text-foreground mb-4">{title || 'Reading'}</h1>
         {subtitle && (
-          <p className="text-lg text-slate-600 max-w-2xl leading-relaxed pt-8">
+          <p className="text-lg text-slate-600 max-w-2xl">
             {subtitle}
           </p>
         )}
