@@ -17,3 +17,5 @@ A bunch of links to get started with some stuff I do:
 
 I made this website [open source](https://github.com/gabtin/gabtin.github.io). 
 It's based on Obsidian and it could be useful to fork to some PKM nerds.
+
+I'm usually at gabriele@foundamental.com.

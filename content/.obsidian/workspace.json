@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "thoughts/hardware-co-without-VC.mdx",
+                "file": "home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hardware-co-without-VC"
+              "title": "home"
             }
           }
         ]
@@ -197,13 +197,20 @@
   },
   "active": "ecafbafac8534a76",
   "lastOpenFiles": [
+    "about.md",
+    "books/the-metamorphosis.md",
+    "books/the-intelligent-investor.md",
+    "books/the-elegant-universe-superstrings-hidden-dimension.md",
+    "books/spaceflight-a-concise-history.md",
+    "books/invention-and-innovation-a-brief-history-of-hype-a.md",
+    "books/energy-and-civilization-a-history.md",
+    "thoughts/hardware-co-without-VC.mdx",
     "reading.md",
     "substack.md",
     "podcast.md",
     "listening.md",
     "listening/practical-nerds.mdx",
     "investments/botcrew.mdx",
-    "about.md",
     "home.md",
     "listening/titans-of-nuclear.mdx",
     "listening/quanta-podcast.mdx",
@@ -222,16 +229,10 @@
     "records/convergence.md",
     "records/aurora.md",
     "records/appetite-for-destruction.md",
-    "records/anima-latina.md",
-    "records/absolution.md",
-    "thoughts/hardware-co-without-VC.mdx",
-    "investments.md",
-    "records/led-zep-3.md",
     "images/records/ledzep3.png",
     "images/records",
     "images",
     "records",
-    "thoughts.md",
     "thoughts/quick-note-compounding.mdx"
   ]
 }
