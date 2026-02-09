@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "home.md",
+                "file": "about.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "home"
+              "title": "about"
             }
           }
         ]
@@ -197,6 +197,8 @@
   },
   "active": "ecafbafac8534a76",
   "lastOpenFiles": [
+    "books/seven-brief-lessons-on-physics.md",
+    "home.md",
     "about.md",
     "books/the-metamorphosis.md",
     "books/the-intelligent-investor.md",
@@ -211,7 +213,6 @@
     "listening.md",
     "listening/practical-nerds.mdx",
     "investments/botcrew.mdx",
-    "home.md",
     "listening/titans-of-nuclear.mdx",
     "listening/quanta-podcast.mdx",
     "listening/mindscape-podcast.mdx",
@@ -228,7 +229,6 @@
     "records/dataverse.md",
     "records/convergence.md",
     "records/aurora.md",
-    "records/appetite-for-destruction.md",
     "images/records/ledzep3.png",
     "images/records",
     "images",

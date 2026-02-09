@@ -7,7 +7,15 @@ Aerospace engineer by training, investor at [Foundamental](https://www.foundamen
 
 I look for hardware and robotics businesses that will either (1) become the next generation of universal tooling for their industry or (2) perform $100B+ in physical work over the next decade.
 
-I was born in a family of two music teachers. My grandpa (on the right) was a great plumber and grew more veggies than my grandma could ever cook. My grandma (on the left) is a literal superhero who raised 3 girls on her own.
+I was born in a family of two music teachers. My mother teaches cello to students that are preparing for hard conservatory studies and my dad is a conservatory teacher of clarinet (he [tours the world quite regularly.](https://www.antoniotinelli.com/)).
+
+<div style="display: flex; gap: 16px; margin: 24px 0;">
+  <img src="/images/about/mamma.jpeg" alt="My mom" style="width: 50%; max-height: 400px; object-fit: cover; border-radius: 4px;" />
+  <img src="/images/about/papo.jpg" alt="My dad" style="width: 50%; max-height: 400px; object-fit: cover; border-radius: 4px;" />
+</div>
+
+
+My grandpa (on the right) was a great plumber and grew more veggies than my grandma could ever cook. My grandma (on the left) is a literal superhero who raised 3 girls on her own.
 
 <div style="display: flex; gap: 16px; margin: 24px 0;">
   <img src="/images/about/nonna.png" alt="My grandma" style="width: 50%; max-height: 400px; object-fit: cover; border-radius: 4px;" />
