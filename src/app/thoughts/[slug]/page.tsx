@@ -40,7 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       publishedTime: thought.date,
       images: [
         {
-          url: '/images/habboicon.png',
+          url: '/images/og-image.png',
           width: 1200,
           height: 630,
           alt: title,
@@ -48,10 +48,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       ],
     },
     twitter: {
-      card: 'summary',
+      card: 'summary_large_image',
       title,
       description,
-      images: ['/images/habboicon.png'],
+      images: ['/images/og-image.png'],
     },
   };
 }

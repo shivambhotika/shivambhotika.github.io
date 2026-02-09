@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/habboicon.png",
+        url: "/images/og-image.png",
         width: 1200,
         height: 630,
         alt: "Gabriele Tinelli",
@@ -30,10 +30,10 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Gabriele Tinelli",
     description: "Personal website of Gabriele Tinelli - builder, investor, and technologist.",
-    images: ["/images/habboicon.png"],
+    images: ["/images/og-image.png"],
   },
   robots: {
     index: true,

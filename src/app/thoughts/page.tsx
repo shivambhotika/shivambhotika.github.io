@@ -6,13 +6,13 @@ import { getSubstackPosts, SubstackPost } from '@/lib/rss';
 
 export const metadata: Metadata = {
   title: 'Thoughts | Gabriele Tinelli',
-  description: 'Notes, essays, and ideas on technology, investing, and more.',
+  description: 'a mix of shorter and longer rants',
   openGraph: {
-    title: 'Thoughts | Gabriele Tinelli',
-    description: 'Notes, essays, and ideas on technology, investing, and more.',
+    title: 'Thoughts',
+    description: 'a mix of shorter and longer rants',
     images: [
       {
-        url: '/images/habboicon.png',
+        url: '/images/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Thoughts | Gabriele Tinelli',
@@ -20,10 +20,10 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    card: 'summary',
-    title: 'Thoughts | Gabriele Tinelli',
-    description: 'Notes, essays, and ideas on technology, investing, and more.',
-    images: ['/images/habboicon.png'],
+    card: 'summary_large_image',
+    title: 'Thoughts',
+    description: 'a mix of shorter and longer rants',
+    images: ['/images/og-image.png'],
   },
 };
 
