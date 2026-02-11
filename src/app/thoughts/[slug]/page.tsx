@@ -29,6 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const title = `${thought.title || 'Thought'} | Gabriele Tinelli`;
   const description = thought.description || thought.content.slice(0, 160).replace(/[#*`]/g, '').trim();
+  const ogImage = thought.image || '/images/og-image.png';
 
   return {
     title,
@@ -40,7 +41,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       publishedTime: thought.date,
       images: [
         {
-          url: '/images/og-image.png',
+          url: ogImage,
           width: 1200,
           height: 630,
           alt: title,
@@ -51,7 +52,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title,
       description,
-      images: ['/images/og-image.png'],
+      images: [ogImage],
     },
   };
 }

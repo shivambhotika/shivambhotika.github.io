@@ -40,6 +40,7 @@ export interface Thought {
   tags?: string[];
   description?: string;
   draft?: boolean;
+  image?: string;
   content: string;
   fileName: string;
 }
