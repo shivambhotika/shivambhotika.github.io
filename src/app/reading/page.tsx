@@ -3,23 +3,23 @@ import BookCard from '@/components/BookCard';
 import { getBooks, getPageContent } from '@/lib/content';
 
 export const metadata: Metadata = {
-  title: 'Reading | Gabriele Tinelli',
+  title: 'Reading | Shivam Bhotika',
   description: 'Books I\'ve read, am reading, or plan to read.',
   openGraph: {
-    title: 'Reading | Gabriele Tinelli',
+    title: 'Reading | Shivam Bhotika',
     description: 'Books I\'ve read, am reading, or plan to read.',
     images: [
       {
         url: '/images/habboicon.png',
         width: 1200,
         height: 630,
-        alt: 'Reading | Gabriele Tinelli',
+        alt: 'Reading | Shivam Bhotika',
       },
     ],
   },
   twitter: {
     card: 'summary',
-    title: 'Reading | Gabriele Tinelli',
+    title: 'Reading | Shivam Bhotika',
     description: 'Books I\'ve read, am reading, or plan to read.',
     images: ['/images/habboicon.png'],
   },
