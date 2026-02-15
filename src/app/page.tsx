@@ -4,24 +4,24 @@ import { getPageContent } from '@/lib/content';
 import { marked } from 'marked';
 
 export const metadata: Metadata = {
-  title: 'Gabriele Tinelli',
-  description: 'Personal website of Gabriele Tinelli - builder, investor, and technologist.',
+  title: 'Shivam Bhotika',
+  description: 'Personal website of Shivam Bhotika - venture, startups, and writing about tech and culture.',
   openGraph: {
-    title: 'Gabriele Tinelli',
-    description: 'Personal website of Gabriele Tinelli - builder, investor, and technologist.',
+    title: 'Shivam Bhotika',
+    description: 'Personal website of Shivam Bhotika - venture, startups, and writing about tech and culture.',
     images: [
       {
         url: '/images/habboicon.png',
         width: 1200,
         height: 630,
-        alt: 'Gabriele Tinelli',
+        alt: 'Shivam Bhotika',
       },
     ],
   },
   twitter: {
     card: 'summary',
-    title: 'Gabriele Tinelli',
-    description: 'Personal website of Gabriele Tinelli - builder, investor, and technologist.',
+    title: 'Shivam Bhotika',
+    description: 'Personal website of Shivam Bhotika - venture, startups, and writing about tech and culture.',
     images: ['/images/habboicon.png'],
   },
 };
