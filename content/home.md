@@ -1,21 +1,23 @@
----
-title: Gabriele Tinelli
+title: Shivam Bhotika
 subtitle: |-
-  investor at Foundamental /
-  following rabbit holes on how to enhance the physical world with robots.
+  early-stage venture / startup building /
+  writing about how technology leaks into culture.
 ---
-Based in Berlin. I try to map today's hardware and robotics wave to the physical world markets they're going to serve. 
+Based in Bengaluru / Calcutta. I spend my time somewhere between early-stage venture, zero-to-one startup building, and writing about how technology leaks into culture.
+
+I'm interested in ideas that feel slightly early, slightly irrational, and somehow inevitable in hindsight — especially around AI, consumer behavior, and the weird edges of the internet.
 
 A bunch of links to get started with some stuff I do:
 
-
-- [99.5% of hardware companies don't know what venture capital is](/thoughts/hardware-co-without-VC)
-- [Builders Take All, my substack newsletter](https://gabrieletinelli.substack.com)
-- [BitBuilders, my podcast](https://open.spotify.com/show/1y5r74qzatrFOaxGbDf6iA)
+- [Outer Speak, my substack newsletter](https://outerspeak.substack.com)
+- [The Token Dispatch](https://www.thetokendispatch.com) - 200K+ subscribers, top #20 crypto newsletter on Substack
+- [Oftenly Wicked Podcast](https://open.spotify.com/show/03xnDBxIRYdMWdyzRlQUBF) - did podcasting before it was cool
 
 ---
 
-I made this website [open source](https://github.com/gabtin/gabtin.github.io). 
+This site is a living notebook more than a finished product. Some things are polished, some are experiments, all of it is part of the same ongoing thought process.
+
+I made this website [open source](https://github.com/shivambhotika/shivambhotika.github.io). 
 It's based on Obsidian and it could be useful to fork to some PKM nerds.
 
-I'm usually at gabriele@foundamental.com.
+You can usually find me at shivam.bhotika@gmail.com.
