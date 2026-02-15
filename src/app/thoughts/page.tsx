@@ -5,25 +5,25 @@ import { getThoughts, getPageContent, Thought } from '@/lib/content';
 import { getSubstackPosts, SubstackPost } from '@/lib/rss';
 
 export const metadata: Metadata = {
-  title: 'Thoughts | Gabriele Tinelli',
-  description: 'a mix of shorter and longer rants',
+  title: 'Reading | Shivam Bhotika',
+  description: 'Books I\'ve read, am reading, or plan to read.',
   openGraph: {
-    title: 'Thoughts',
-    description: 'a mix of shorter and longer rants',
+    title: 'Reading | Shivam Bhotika',
+    description: 'Books I\'ve read, am reading, or plan to read.',
     images: [
       {
-        url: '/images/og-image.png',
+        url: '/images/habboicon.png',
         width: 1200,
         height: 630,
-        alt: 'Thoughts | Gabriele Tinelli',
+        alt: 'Reading | Shivam Bhotika',
       },
     ],
   },
   twitter: {
-    card: 'summary_large_image',
-    title: 'Thoughts',
-    description: 'a mix of shorter and longer rants',
-    images: ['/images/og-image.png'],
+    card: 'summary',
+    title: 'Reading | Shivam Bhotika',
+    description: 'Books I\'ve read, am reading, or plan to read.',
+    images: ['/images/habboicon.png'],
   },
 };
 
