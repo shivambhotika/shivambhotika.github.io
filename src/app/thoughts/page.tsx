@@ -5,25 +5,25 @@ import { getThoughts, getPageContent, Thought } from '@/lib/content';
 import { getSubstackPosts, SubstackPost } from '@/lib/rss';
 
 export const metadata: Metadata = {
-  title: 'Reading | Shivam Bhotika',
-  description: 'Books I\'ve read, am reading, or plan to read.',
+  title: 'Thoughts | Shivam Bhotika',
+  description: 'writing about tech, culture, and ideas that feel slightly early',
   openGraph: {
-    title: 'Reading | Shivam Bhotika',
-    description: 'Books I\'ve read, am reading, or plan to read.',
+    title: 'Thoughts | Shivam Bhotika',
+    description: 'writing about tech, culture, and ideas that feel slightly early',
     images: [
       {
-        url: '/images/habboicon.png',
+        url: '/images/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Reading | Shivam Bhotika',
+        alt: 'Thoughts | Shivam Bhotika',
       },
     ],
   },
   twitter: {
-    card: 'summary',
-    title: 'Reading | Shivam Bhotika',
-    description: 'Books I\'ve read, am reading, or plan to read.',
-    images: ['/images/habboicon.png'],
+    card: 'summary_large_image',
+    title: 'Thoughts | Shivam Bhotika',
+    description: 'writing about tech, culture, and ideas that feel slightly early',
+    images: ['/images/og-image.png'],
   },
 };
 
