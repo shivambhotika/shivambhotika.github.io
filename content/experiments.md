@@ -5,13 +5,13 @@ subtitle: side projects that occasionally escape into the wild
 
 ## Active Projects
 
-**[AI Explained For Plebs](https://aiexplainedforplebs.com)**  
+**AI Explained For Plebs**  
 Making sense of AI hype, one confused normie at a time. No jargon allowed, vibes strictly optional.
 
-**[Garam VC](https://garamvc.com)**  
+**Garam VC**  
 Hot or Not for India VCs — because someone had to build a tier list for the ecosystem's gossip mill.
 
-**[Dhan Ki Baat](https://dhankibaat.com)**  
+**Dhan Ki Baat**  
 Investment planner for tech bros who just got their first RSU grant and think they're Warren Buffett now.
 
 ---
