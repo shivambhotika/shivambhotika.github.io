@@ -24,7 +24,7 @@ const parser = new Parser({
   },
 });
 
-const SUBSTACK_FEED_URL = 'https://gabrieletinelli.substack.com/feed';
+const SUBSTACK_FEED_URL = 'https://outerspeak.substack.com/feed';
 
 async function fetchRSSWithFallback(url: string): Promise<string> {
   // Try direct fetch first
