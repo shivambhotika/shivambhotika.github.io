@@ -24,7 +24,7 @@ export default function Header() {
             className="font-pixel text-2xl"
             style={{ textDecoration: 'none' }}
           >
-            /gt
+            /sb
           </Link>
 
           <nav className="flex items-center gap-4 md:gap-6">
