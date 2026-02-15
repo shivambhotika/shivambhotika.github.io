@@ -4,24 +4,24 @@ import { getPageContent } from '@/lib/content';
 import { marked } from 'marked';
 
 export const metadata: Metadata = {
-  title: 'About | Gabriele Tinelli',
-  description: 'Learn more about Gabriele Tinelli - background, interests, and current projects.',
+  title: 'About | Shivam Bhotika',
+  description: 'Learn more about Shivam Bhotika - background, interests, and current projects.',
   openGraph: {
-    title: 'About | Gabriele Tinelli',
-    description: 'Learn more about Gabriele Tinelli - background, interests, and current projects.',
+    title: 'About | Shivam Bhotika',
+    description: 'Learn more about Shivam Bhotika - background, interests, and current projects.',
     images: [
       {
         url: '/images/habboicon.png',
         width: 1200,
         height: 630,
-        alt: 'About | Gabriele Tinelli',
+        alt: 'About | Shivam Bhotika',
       },
     ],
   },
   twitter: {
     card: 'summary',
-    title: 'About | Gabriele Tinelli',
-    description: 'Learn more about Gabriele Tinelli - background, interests, and current projects.',
+    title: 'About | Shivam Bhotika',
+    description: 'Learn more about Shivam Bhotika - background, interests, and current projects.',
     images: ['/images/habboicon.png'],
   },
 };
