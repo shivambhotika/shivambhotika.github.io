@@ -1,8 +1,8 @@
 const socialLinks = [
-  { name: 'X', href: 'https://x.com/GabrieleTin' },
-  { name: 'LinkedIn', href: 'https://www.linkedin.com/in/gabrieletinelli/' },
-  { name: 'Substack', href: 'https://gabrieletinelli.substack.com' },
-  { name: 'Spotify', href: 'https://open.spotify.com/show/1y5r74qzatrFOaxGbDf6iA' },
+  { name: 'X', href: 'https://x.com/shivambhotika' },
+  { name: 'LinkedIn', href: 'https://www.linkedin.com/in/shivambhotika/' },
+  { name: 'Substack', href: 'https://outerspeak.substack.com' },
+  { name: 'Spotify', href: 'https://open.spotify.com/user/uswzjhszdi8ogcurq4dv62t20' },
 ];
 
 export default function Footer() {
