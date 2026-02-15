@@ -8,8 +8,7 @@ const navigation = [
   { name: 'Thoughts', href: '/thoughts', dividerAfter: true },
   { name: 'Reading', href: '/reading' },
   { name: 'Listening', href: '/listening' },
-  { name: 'Investments', href: '/investments' },
-  { name: 'Podcast', href: '/podcast' },
+  { name: 'Experiments', href: '/experiments' },
 ];
 
 export default function Header() {
