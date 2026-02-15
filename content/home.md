@@ -1,15 +1,15 @@
+---
 title: Shivam Bhotika
 subtitle: |-
   early-stage venture / startup building /
   writing about how technology leaks into culture.
 ---
-Based in Bengaluru / Calcutta. I spend my time somewhere between early-stage venture, zero-to-one startup building, and writing about how technology leaks into culture.
 
-I'm interested in ideas that feel slightly early, slightly irrational, and somehow inevitable in hindsight — especially around AI, consumer behavior, and the weird edges of the internet.
+Based in Bengaluru / Calcutta. I'm interested in ideas that feel slightly early, slightly irrational, and somehow inevitable in hindsight; especially around AI, consumer behavior, and the weird edges of the internet.
 
 A bunch of links to get started with some stuff I do:
 
-- [Outer Speak, my substack newsletter](https://outerspeak.substack.com)
+- [OuterSpeak, my substack newsletter](https://outerspeak.substack.com)
 - [The Token Dispatch](https://www.thetokendispatch.com) - 200K+ subscribers, top #20 crypto newsletter on Substack
 - [Oftenly Wicked Podcast](https://open.spotify.com/show/03xnDBxIRYdMWdyzRlQUBF) - did podcasting before it was cool
 
