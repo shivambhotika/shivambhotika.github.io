@@ -8,6 +8,7 @@ const navigation = [
   { name: 'Thoughts', href: '/thoughts', dividerAfter: true },
   { name: 'Reading', href: '/reading' },
   { name: 'Listening', href: '/listening' },
+  { name: 'Photos', href: '/photos' },
   { name: 'Experiments', href: '/experiments' },
 ];
 
