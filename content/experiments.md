@@ -14,6 +14,12 @@ Tinder for VCs, but everyone swipes left. Built because someone needed to rank I
 **[Dhan Ki Baat](https://www.dhankibaat.xyz/)**  
 Because every tech bro with their first equity thinks they're the next Buffett. A reality check disguised as an investment planner.
 
+**[Show Me The DPI](https://show-me-the-dpi.up.railway.app/)**  
+Quickly checks your display scale and DPI setup without digging through system settings.
+
+**[Under The Hood](https://underthehood.up.railway.app/)**  
+Live playground for tools and workflows I keep experimenting with.
+
 ---
 
 ## Past Work
