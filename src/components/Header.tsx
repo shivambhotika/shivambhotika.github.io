@@ -5,9 +5,11 @@ import { usePathname } from 'next/navigation';
 
 const navigation = [
   { name: 'About', href: '/about' },
+  { name: 'Resume', href: '/resume' },
   { name: 'Thoughts', href: '/thoughts', dividerAfter: true },
   { name: 'Reading', href: '/reading' },
   { name: 'Listening', href: '/listening' },
+  { name: 'Photos', href: '/photos' },
   { name: 'Experiments', href: '/experiments' },
 ];
 
@@ -46,7 +48,7 @@ export default function Header() {
               );
             })}
             {/* Mobile */}
-            {navigation.slice(0, 4).map((item) => {
+            {navigation.slice(0, 5).map((item) => {
               const isActive = pathname === item.href || pathname?.startsWith(item.href + '/');
               return (
                 <Link
